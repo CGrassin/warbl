@@ -1,0 +1,47 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# QRE1113
+#
+DEF QRE1113 U 0 40 N N 1 L N
+F0 "U" -150 301 50 H V L BNN
+F1 "QRE1113" -151 -401 50 H V L BNN
+F2 "DIP180P270X170-4" 0 0 50 H I L BNN
+F3 "https://www.digikey.com/product-detail/en/on-semiconductor/QRE1113/QRE1113-ND/2175990?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F4 "DIP-4 ON Semiconductor" 0 0 50 H I L BNN
+F5 "QRE1113" 0 0 50 H I L BNN
+F6 "OPTOCOUPLER, PHOTOTRANSISTOR; No. of Channels: 1; Optocoupler Output Type: Phototr" 0 0 50 H I L BNN
+F7 "ON Semiconductor" 0 0 50 H I L BNN
+F8 "QRE1113-ND" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -150 -250 150 -250 N
+P 2 0 0 10 150 -250 150 -150 N
+P 2 0 0 10 150 -150 150 150 N
+P 2 0 0 10 150 150 150 250 N
+P 2 0 0 10 150 250 -150 250 N
+P 2 0 0 10 -150 250 -150 150 N
+P 2 0 0 10 -150 150 -150 -150 N
+P 2 0 0 10 -150 -150 -150 -250 N
+P 2 0 0 10 -150 -150 -50 -50 N
+P 2 0 0 10 -50 -50 50 -50 N
+P 2 0 0 10 50 -50 110 -110 N
+P 2 0 0 10 110 -110 150 -150 N
+P 2 0 0 10 -50 -50 -100 -50 N
+P 2 0 0 10 50 -50 110 -50 N
+P 2 0 0 10 -150 150 50 150 N
+P 2 0 0 10 50 150 150 150 N
+P 2 0 0 10 50 100 50 150 N
+P 2 0 0 10 50 150 50 210 N
+P 2 0 0 10 110 -110 110 -70 N
+P 2 0 0 10 110 -110 70 -110 N
+P 4 0 0 10 50 150 -10 210 -10 100 30 140 F
+X A 1 -250 150 100 R 40 40 0 0 B 
+X E 4 250 -150 100 L 40 40 0 0 B 
+X C 3 -250 -150 100 R 40 40 0 0 B 
+X K 2 250 150 100 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
