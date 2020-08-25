@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name WARBL2.2-rescue)(type Legacy)(uri ${KIPRJMOD}/WARBL2.2-rescue.lib)(options "")(descr ""))
+  (lib (name ESDA7P60-1U1M)(type Legacy)(uri ${KIPRJMOD}/ESDA7P60-1U1M.lib)(options "")(descr ""))
 )

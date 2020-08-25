@@ -14,28 +14,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L WARBL2.2-rescue:ATmega32U4-MU-MCU_Microchip_ATmega-WARBL2.2-rescue U2
-U 1 1 5B734758
-P 4100 4600
-F 0 "U2" H 4000 4450 50  0000 C CNN
-F 1 "ATmega32U4-MU" H 4000 4350 50  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-44-1EP_7x7mm_Pitch0.5mm" H 4100 4600 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 4100 4600 50  0001 C CNN
-F 4 "microcontroller" H 0   0   50  0001 C CNN "Description"
-F 5 "Microchip" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "ATMEGA32U4-MU" H 0   0   50  0001 C CNN "Mfg Part #"
-F 7 "44-VQFN (7x7)" H 0   0   50  0001 C CNN "Package"
-	1    4100 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Resonator_Small Y1
 U 1 1 5B73BA20
 P 2850 3400
 F 0 "Y1" V 2550 3300 50  0000 L CNN
 F 1 "8 Mhz" V 2650 2750 50  0000 L CNN
 F 2 "CSTNE8M00GH5L000R0:CSTNE16M0V530000R0" H 2825 3400 50  0001 C CNN
-F 3 "http://static6.arrow.com/aropdfconversion/11adc973269c6d695d9d99b871e8c6a1902be758/cstne8m00gh5l000r0.pdf" H 2825 3400 50  0001 C CNN
+F 3 "~" H 2825 3400 50  0001 C CNN
 F 4 "Murata" H 2850 3400 50  0001 C CNN "Manufacturer"
 F 5 "CSTNE8M00GH5L000R0" H 2850 3400 50  0001 C CNN "Mfg Part #"
 F 6 "Ceramic resonator" H 2850 3400 50  0001 C CNN "Description"
@@ -50,7 +35,7 @@ U 1 1 5B744A22
 P 2100 1600
 F 0 "U1" H 2100 1942 50  0000 C CNN
 F 1 "3.3V" H 2100 1851 50  0001 C CNN
-F 2 "MIC5225-3.3YM5-TR:SOT95P280X145-5N" H 2100 1925 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2100 1925 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/devicedoc/mic5205.pdf" H 2100 1600 50  0001 C CNN
 F 4 "Microchip" H 2100 1600 50  0001 C CNN "Manufacturer"
 F 5 "MIC5225-3.3YM5-TR" H 2150 2050 50  0000 C CNN "Mfg Part #"
@@ -65,7 +50,7 @@ U 1 1 5B744FDF
 P 5700 3500
 F 0 "J2" H 5750 3817 50  0000 C CNN
 F 1 "ICSP Connector" H 5750 3726 50  0000 C CNN
-F 2 "localLib2:SMD_ICSPHeader_Pitch2.54mm" H 5700 3500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5700 3500 50  0001 C CNN
 F 3 "~" H 5700 3500 50  0001 C CNN
 F 4 "Do not include in assembly." H 5700 3500 50  0001 C CNN "Instructions"
 	1    5700 3500
@@ -78,7 +63,7 @@ P 5300 4100
 F 0 "D1" H 5450 4200 50  0000 C CNN
 F 1 "LED" H 5300 4200 50  0000 C CNN
 F 2 "LEDs:LED_0603" H 5300 4100 50  0001 C CNN
-F 3 "http://static6.arrow.com/aropdfconversion/a52cc082e32ca6707db0fcb6e92039f435b745ca/lgl29k_en.pdf" H 5300 4100 50  0001 C CNN
+F 3 "~" H 5300 4100 50  0001 C CNN
 F 4 "LED" H 0   0   50  0001 C CNN "Description"
 F 5 "OSRAM" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "LG L29K-G2J1-24-Z" H 0   0   50  0001 C CNN "Mfg Part #"
@@ -93,7 +78,7 @@ P 1300 1900
 F 0 "C1" H 1050 1950 50  0000 L CNN
 F 1 "10uF" H 1000 1850 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 1300 1900 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A106KQ8NNNC.jsp" H 1300 1900 50  0001 C CNN
+F 3 "~" H 1300 1900 50  0001 C CNN
 F 4 "10µF ±10% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Description"
 F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "CL10A106KQ8NNNC" H 0   0   50  0001 C CNN "Mfg Part #"
@@ -160,7 +145,7 @@ P 1450 1600
 F 0 "R1" V 1450 1600 50  0000 C CNN
 F 1 "100k" V 1550 1600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 1380 1600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 1450 1600 50  0001 C CNN
+F 3 "~" H 1450 1600 50  0001 C CNN
 F 4 "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Digi-Key_PN"
 F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
@@ -192,7 +177,7 @@ P 3700 2400
 F 0 "SW1" H 3700 2685 50  0000 C CNN
 F 1 "RESET" H 3700 2594 50  0000 C CNN
 F 2 "localLib:SW_KMR221GLFS" H 3700 2600 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1479/kmr2.pdf" H 3700 2600 50  0001 C CNN
+F 3 "~" H 3700 2600 50  0001 C CNN
 F 4 "C&K" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "KMR211GLFS" H 0   0   50  0001 C CNN "Mfg Part #"
 F 6 "Tactile Switch SPST-NO Top Actuated Surface Mount" H 0   0   50  0001 C CNN "Description"
@@ -239,7 +224,7 @@ P 3350 3700
 F 0 "C3" V 3450 3650 50  0000 L CNN
 F 1 "0.1uF" V 3250 3600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3350 3700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 3350 3700 50  0001 C CNN
+F 3 "~" H 3350 3700 50  0001 C CNN
 F 4 "0.1µF -20%, +80% 50V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Description"
 F 5 "0.1µF -20%, +80% 50V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Digi-Key_PN"
 F 6 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
@@ -294,7 +279,7 @@ P 2500 1900
 F 0 "C2" H 2450 1750 50  0000 L CNN
 F 1 "10uF" H 2400 1650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 2500 1900 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A106KQ8NNNC.jsp" H 2500 1900 50  0001 C CNN
+F 3 "~" H 2500 1900 50  0001 C CNN
 F 4 "10µF ±10% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Description"
 F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "CL10A106KQ8NNNC" H 0   0   50  0001 C CNN "Mfg Part #"
@@ -314,7 +299,7 @@ P 4550 2700
 F 0 "C6" H 4400 2500 50  0000 L CNN
 F 1 "0.1uF" H 4300 2600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4550 2700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 4550 2700 50  0001 C CNN
+F 3 "~" H 4550 2700 50  0001 C CNN
 F 4 "0.1µF -20%, +80% 50V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Description"
 F 5 "0.1µF -20%, +80% 50V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Digi-Key_PN"
 F 6 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
@@ -330,7 +315,7 @@ P 4300 2700
 F 0 "C5" H 4150 2500 50  0000 L CNN
 F 1 "0.1uF" H 4050 2600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4300 2700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 4300 2700 50  0001 C CNN
+F 3 "~" H 4300 2700 50  0001 C CNN
 F 4 "0.1µF -20%, +80% 50V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Description"
 F 5 "0.1µF -20%, +80% 50V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Digi-Key_PN"
 F 6 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
@@ -361,7 +346,7 @@ P 3000 4400
 F 0 "C4" V 3100 4350 50  0000 L CNN
 F 1 "1uF" V 3200 4350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3000 4400 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B105KP8NNNC.jsp" H 3000 4400 50  0001 C CNN
+F 3 "~" H 3000 4400 50  0001 C CNN
 F 4 "1µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Description"
 F 5 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "CL10B105KP8NNNC" H 0   0   50  0001 C CNN "Mfg Part #"
@@ -384,51 +369,6 @@ Wire Wire Line
 	2700 4400 2900 4400
 Wire Wire Line
 	3100 4400 3300 4400
-$Comp
-L Switch:SW_Push_Dual SW4
-U 1 1 5B75AE40
-P 7200 4700
-F 0 "SW4" H 7200 4985 50  0000 C CNN
-F 1 "Tact switch" H 7200 4894 50  0000 C CNN
-F 2 "localLib:TL3305BF160QG" H 7200 4900 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/2567/pts647.pdf" H 7200 4900 50  0001 C CNN
-F 4 "Please ensure that these are accurately positioned." H 50  250 50  0001 C CNN "Instructions"
-F 5 "C&K" H 50  250 50  0001 C CNN "Manufacturer"
-F 6 "PTS 647 SM50 SMTR2 LFS" H 50  250 50  0001 C CNN "Mfg Part #"
-F 7 "4 mm SMD" H 50  250 50  0001 C CNN "Package"
-	1    7200 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push_Dual SW3
-U 1 1 5B75AE9E
-P 7200 4050
-F 0 "SW3" H 7200 4335 50  0000 C CNN
-F 1 "Tact switch" H 7200 4244 50  0000 C CNN
-F 2 "localLib:TL3305BF160QG" H 7200 4250 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/2567/pts647.pdf" H 7200 4250 50  0001 C CNN
-F 4 "Please ensure that these are accurately positioned." H 50  250 50  0001 C CNN "Instructions"
-F 5 "C&K" H 50  250 50  0001 C CNN "Manufacturer"
-F 6 "PTS 647 SM50 SMTR2 LFS" H 50  250 50  0001 C CNN "Mfg Part #"
-F 7 "4 mm SMD" H 50  250 50  0001 C CNN "Package"
-	1    7200 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push_Dual SW2
-U 1 1 5B75AEFA
-P 7200 3400
-F 0 "SW2" H 7200 3685 50  0000 C CNN
-F 1 "Tact switch" H 7200 3594 50  0000 C CNN
-F 2 "localLib:TL3305BF160QG" H 7200 3600 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/2567/pts647.pdf" H 7200 3600 50  0001 C CNN
-F 4 "C&K" H 7200 3400 50  0001 C CNN "Manufacturer"
-F 5 "PTS 647 SM50 SMTR2 LFS" H 7200 3400 50  0001 C CNN "Mfg Part #"
-F 6 "4 mm SMD" H 7200 3400 50  0001 C CNN "Package"
-F 7 "Please ensure that these are accurately positioned." H 7200 3400 50  0001 C CNN "Instructions"
-	1    7200 3400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4700 3400 5500 3400
 Text Label 5200 3400 0    50   ~ 0
@@ -528,7 +468,7 @@ P 6300 5350
 F 0 "C7" V 6150 5300 50  0000 L CNN
 F 1 "0.1uF" V 6150 5450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6300 5350 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 6300 5350 50  0001 C CNN
+F 3 "~" H 6300 5350 50  0001 C CNN
 F 4 "0.1µF -20%, +80% 50V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Description"
 F 5 "0.1µF -20%, +80% 50V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Digi-Key_PN"
 F 6 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
@@ -561,7 +501,7 @@ P 5700 4100
 F 0 "R4" V 5700 4100 50  0000 C CNN
 F 1 "750" V 5800 4100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 5630 4100 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ751V+7+WW" H 5700 4100 50  0001 C CNN
+F 3 "~" H 5700 4100 50  0001 C CNN
 F 4 "750 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "750 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Digi-Key_PN"
 F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
@@ -622,28 +562,22 @@ Wire Wire Line
 	7400 3400 7650 3400
 Wire Wire Line
 	7650 3400 7650 4050
-Connection ~ 7400 3400
 Wire Wire Line
 	7400 4050 7650 4050
-Connection ~ 7400 4050
 Connection ~ 7650 4050
 Wire Wire Line
 	7650 4050 7650 4700
 Wire Wire Line
 	7400 4700 7650 4700
-Connection ~ 7400 4700
 Connection ~ 7650 4700
 Wire Wire Line
 	7650 4700 7650 4900
 Wire Wire Line
 	7000 3600 7000 3400
-Connection ~ 7000 3400
 Wire Wire Line
 	7000 4050 7000 4250
-Connection ~ 7000 4050
 Wire Wire Line
 	7000 4700 7000 4900
-Connection ~ 7000 4700
 Wire Wire Line
 	8150 1800 8900 1800
 Wire Wire Line
@@ -862,7 +796,7 @@ P 9650 1900
 F 0 "R6" V 9650 1900 50  0000 C CNN
 F 1 "1k" V 9750 1900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9580 1900 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ102V+7+WW" H 9650 1900 50  0001 C CNN
+F 3 "~" H 9650 1900 50  0001 C CNN
 F 4 "1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "ERJ-3GEYJ102V" H 0   0   50  0001 C CNN "Mfg Part #"
@@ -892,7 +826,7 @@ P 9650 2500
 F 0 "R7" V 9650 2500 50  0000 C CNN
 F 1 "1k" V 9750 2500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9580 2500 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ102V+7+WW" H 9650 2500 50  0001 C CNN
+F 3 "~" H 9650 2500 50  0001 C CNN
 F 4 "1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "ERJ-3GEYJ102V" H 0   0   50  0001 C CNN "Mfg Part #"
@@ -907,7 +841,7 @@ P 9650 3100
 F 0 "R8" V 9650 3100 50  0000 C CNN
 F 1 "1k" V 9750 3100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9580 3100 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ102V+7+WW" H 9650 3100 50  0001 C CNN
+F 3 "~" H 9650 3100 50  0001 C CNN
 F 4 "1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "ERJ-3GEYJ102V" H 0   0   50  0001 C CNN "Mfg Part #"
@@ -922,7 +856,7 @@ P 9650 3700
 F 0 "R9" V 9650 3700 50  0000 C CNN
 F 1 "1k" V 9750 3700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9580 3700 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ102V+7+WW" H 9650 3700 50  0001 C CNN
+F 3 "~" H 9650 3700 50  0001 C CNN
 F 4 "1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "ERJ-3GEYJ102V" H 0   0   50  0001 C CNN "Mfg Part #"
@@ -937,7 +871,7 @@ P 9650 4300
 F 0 "R10" V 9650 4300 50  0000 C CNN
 F 1 "1k" V 9750 4300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9580 4300 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ102V+7+WW" H 9650 4300 50  0001 C CNN
+F 3 "~" H 9650 4300 50  0001 C CNN
 F 4 "1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "ERJ-3GEYJ102V" H 0   0   50  0001 C CNN "Mfg Part #"
@@ -952,7 +886,7 @@ P 9650 4900
 F 0 "R11" V 9650 4900 50  0000 C CNN
 F 1 "1k" V 9750 4900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9580 4900 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ102V+7+WW" H 9650 4900 50  0001 C CNN
+F 3 "~" H 9650 4900 50  0001 C CNN
 F 4 "1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "ERJ-3GEYJ102V" H 0   0   50  0001 C CNN "Mfg Part #"
@@ -967,27 +901,12 @@ P 9650 5500
 F 0 "R12" V 9650 5500 50  0000 C CNN
 F 1 "1k" V 9750 5500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9580 5500 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ102V+7+WW" H 9650 5500 50  0001 C CNN
+F 3 "~" H 9650 5500 50  0001 C CNN
 F 4 "1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "ERJ-3GEYJ102V" H 0   0   50  0001 C CNN "Mfg Part #"
 F 7 "0603" H 0   0   50  0001 C CNN "Package"
 	1    9650 5500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 5B761C65
-P 9650 6100
-F 0 "R13" V 9650 6100 50  0000 C CNN
-F 1 "1k" V 9750 6100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 9580 6100 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ102V+7+WW" H 9650 6100 50  0001 C CNN
-F 4 "1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
-F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3GEYJ102V" H 0   0   50  0001 C CNN "Mfg Part #"
-F 7 "0603" H 0   0   50  0001 C CNN "Package"
-	1    9650 6100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1103,7 +1022,7 @@ U 1 1 5B7EE8AC
 P 6150 5650
 F 0 "U3" H 5950 5100 50  0000 R CNN
 F 1 "ABPLLND060MGAA3" H 6500 4950 50  0000 R CNN
-F 2 "localLib:ABPLLND060MGAA3" H 6250 5650 50  0001 C CNN
+F 2 "WARBL_PCB:ABPLLND060MGAA3" H 6250 5650 50  0001 C CNN
 F 3 "http://www.honeywellscportal.com//index.php?ci_id=138832" H 6250 5650 50  0001 C CNN
 F 4 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
 	1    6150 5650
@@ -1145,7 +1064,7 @@ P 3250 2600
 F 0 "R15" V 3250 2600 50  0000 C CNN
 F 1 "10k" V 3350 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 3180 2600 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3250 2600 50  0001 C CNN
+F 3 "~" H 3250 2600 50  0001 C CNN
 F 4 "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "ERJ-3GEYJ103V" H 0   0   50  0001 C CNN "Mfg Part #"
@@ -1166,7 +1085,7 @@ P 7850 1800
 F 0 "R16" V 7850 1800 50  0000 C CNN
 F 1 "100" V 7950 1800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 7780 1800 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 7850 1800 50  0001 C CNN
+F 3 "~" H 7850 1800 50  0001 C CNN
 F 4 "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "ERJ-3EKF1000V" H 0   0   50  0001 C CNN "Mfg Part #"
@@ -1196,12 +1115,19 @@ U 1 1 5C17F8C2
 P 2700 4100
 F 0 "IC1" H 3200 3550 50  0000 C CNN
 F 1 "ECMF02-2AMX6" H 3200 3700 50  0000 C CNN
-F 2 "localLib4:ECM" H 3550 4200 50  0001 L CNN
+F 2 "SON50P150X170X55-6N-D" H 3550 4200 50  0001 L CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/3a/28/cf/d0/31/63/48/8c/CD00282307.pdf/files/CD00282307.pdf/jcr:content/translations/en.CD00282307.pdf" H 3550 4100 50  0001 L CNN
 F 4 "ST Microelectronics" H 2700 4100 50  0001 C CNN "Manufacturer"
 F 5 "ECMF02-2AMX6" H 2700 4100 50  0001 C CNN "Mfg Part #"
 F 6 "Common Mode Filter & ESD Prot. USB uQFN6 STMicroelectronics ECMF02 Series, Signal Filter, 200mA QFN SMD, Flat Contact Termination, 1.8 x 1.6 x 0.5mm" H 3550 4000 50  0001 L CNN "Description"
 F 7 "6-UFQFN" H 2700 4100 50  0001 C CNN "Package"
+F 8 "ECMF02-2AMX6" H 0   0   50  0001 C CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/ecmf02-2amx6/stmicroelectronics" H 0   0   50  0001 C CNN "Arrow Price/Stock"
+F 10 "0.55" H 0   0   50  0001 C CNN "Height"
+F 11 "STMicroelectronics" H 0   0   50  0001 C CNN "Manufacturer_Name"
+F 12 "ECMF02-2AMX6" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
+F 13 "1655521" H 0   0   50  0001 C CNN "RS Part Number"
+F 14 "http://uk.rs-online.com/web/p/products/1655521" H 0   0   50  0001 C CNN "RS Price/Stock"
 	1    2700 4100
 	-1   0    0    -1  
 $EndComp
@@ -1211,7 +1137,7 @@ U 1 1 5C18796A
 P 9200 1700
 F 0 "U4" H 9200 2047 60  0000 C CNN
 F 1 "QRD1114" H 9200 1941 60  0000 C CNN
-F 2 "localLib2:Reflective_Sensor_QRD1114" H 9400 1900 60  0001 L CNN
+F 2 "WARBL_PCB:Reflective_Sensor_QRD1114" H 9400 1900 60  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 2000 60  0001 L CNN
 F 4 "QRD1114-ND" H 9400 2100 60  0001 L CNN "Digi-Key_PN"
 F 5 "QRD1114" H 9400 2200 60  0001 L CNN "MPN"
@@ -1233,7 +1159,7 @@ U 1 1 5C196956
 P 9200 2300
 F 0 "U5" H 9200 2647 60  0000 C CNN
 F 1 "QRD1114" H 9200 2541 60  0000 C CNN
-F 2 "localLib2:Reflective_Sensor_QRD1114" H 9400 2500 60  0001 L CNN
+F 2 "WARBL_PCB:Reflective_Sensor_QRD1114" H 9400 2500 60  0001 L CNN
 F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 2600 60  0001 L CNN
 F 4 "QRD1114-ND" H 9400 2700 60  0001 L CNN "Digi-Key_PN"
 F 5 "QRD1114" H 9400 2800 60  0001 L CNN "MPN"
@@ -1249,137 +1175,11 @@ F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
 	1    0    0    -1  
 $EndComp
 Connection ~ 9500 2400
-$Comp
-L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U6
-U 1 1 5C196DB4
-P 9200 2900
-F 0 "U6" H 9200 3247 60  0000 C CNN
-F 1 "QRD1114" H 9200 3141 60  0000 C CNN
-F 2 "localLib2:Reflective_Sensor_QRD1114" H 9400 3100 60  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 3200 60  0001 L CNN
-F 4 "QRD1114-ND" H 9400 3300 60  0001 L CNN "Digi-Key_PN"
-F 5 "QRD1114" H 9400 3400 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 9400 3500 60  0001 L CNN "Category"
-F 7 "Optical Sensors - Reflective - Analog Output" H 9400 3600 60  0001 L CNN "Family"
-F 8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 3700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 9400 3800 60  0001 L CNN "DK_Detail_Page"
-F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 9400 3900 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 9400 4000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9400 4100 60  0001 L CNN "Status"
-F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
-	1    9200 2900
-	1    0    0    -1  
-$EndComp
 Connection ~ 9500 3000
-$Comp
-L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U7
-U 1 1 5C196E30
-P 9200 3500
-F 0 "U7" H 9200 3847 60  0000 C CNN
-F 1 "QRD1114" H 9200 3741 60  0000 C CNN
-F 2 "localLib2:Reflective_Sensor_QRD1114" H 9400 3700 60  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 3800 60  0001 L CNN
-F 4 "QRD1114-ND" H 9400 3900 60  0001 L CNN "Digi-Key_PN"
-F 5 "QRD1114" H 9400 4000 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 9400 4100 60  0001 L CNN "Category"
-F 7 "Optical Sensors - Reflective - Analog Output" H 9400 4200 60  0001 L CNN "Family"
-F 8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 4300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 9400 4400 60  0001 L CNN "DK_Detail_Page"
-F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 9400 4500 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 9400 4600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9400 4700 60  0001 L CNN "Status"
-F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
-	1    9200 3500
-	1    0    0    -1  
-$EndComp
 Connection ~ 9500 3600
-$Comp
-L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U8
-U 1 1 5C196F70
-P 9200 4100
-F 0 "U8" H 9200 4447 60  0000 C CNN
-F 1 "QRD1114" H 9200 4341 60  0000 C CNN
-F 2 "localLib2:Reflective_Sensor_QRD1114" H 9400 4300 60  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 4400 60  0001 L CNN
-F 4 "QRD1114-ND" H 9400 4500 60  0001 L CNN "Digi-Key_PN"
-F 5 "QRD1114" H 9400 4600 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 9400 4700 60  0001 L CNN "Category"
-F 7 "Optical Sensors - Reflective - Analog Output" H 9400 4800 60  0001 L CNN "Family"
-F 8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 4900 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 9400 5000 60  0001 L CNN "DK_Detail_Page"
-F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 9400 5100 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 9400 5200 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9400 5300 60  0001 L CNN "Status"
-F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
-	1    9200 4100
-	1    0    0    -1  
-$EndComp
 Connection ~ 9500 4200
-$Comp
-L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U9
-U 1 1 5C196FF2
-P 9200 4700
-F 0 "U9" H 9200 5047 60  0000 C CNN
-F 1 "QRD1114" H 9200 4941 60  0000 C CNN
-F 2 "localLib2:Reflective_Sensor_QRD1114" H 9400 4900 60  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 5000 60  0001 L CNN
-F 4 "QRD1114-ND" H 9400 5100 60  0001 L CNN "Digi-Key_PN"
-F 5 "QRD1114" H 9400 5200 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 9400 5300 60  0001 L CNN "Category"
-F 7 "Optical Sensors - Reflective - Analog Output" H 9400 5400 60  0001 L CNN "Family"
-F 8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 5500 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 9400 5600 60  0001 L CNN "DK_Detail_Page"
-F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 9400 5700 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 9400 5800 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9400 5900 60  0001 L CNN "Status"
-F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
-	1    9200 4700
-	1    0    0    -1  
-$EndComp
 Connection ~ 9500 4800
-$Comp
-L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U10
-U 1 1 5C1970CC
-P 9200 5300
-F 0 "U10" H 9200 5647 60  0000 C CNN
-F 1 "QRD1114" H 9200 5541 60  0000 C CNN
-F 2 "localLib2:Reflective_Sensor_QRD1114" H 9400 5500 60  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 5600 60  0001 L CNN
-F 4 "QRD1114-ND" H 9400 5700 60  0001 L CNN "Digi-Key_PN"
-F 5 "QRD1114" H 9400 5800 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 9400 5900 60  0001 L CNN "Category"
-F 7 "Optical Sensors - Reflective - Analog Output" H 9400 6000 60  0001 L CNN "Family"
-F 8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 6100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 9400 6200 60  0001 L CNN "DK_Detail_Page"
-F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 9400 6300 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 9400 6400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9400 6500 60  0001 L CNN "Status"
-F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
-	1    9200 5300
-	1    0    0    -1  
-$EndComp
 Connection ~ 9500 5400
-$Comp
-L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U11
-U 1 1 5C197152
-P 9200 5900
-F 0 "U11" H 9200 6247 60  0000 C CNN
-F 1 "QRD1114" H 9200 6141 60  0000 C CNN
-F 2 "localLib2:Reflective_Sensor_QRD1114" H 9400 6100 60  0001 L CNN
-F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 6200 60  0001 L CNN
-F 4 "QRD1114-ND" H 9400 6300 60  0001 L CNN "Digi-Key_PN"
-F 5 "QRD1114" H 9400 6400 60  0001 L CNN "MPN"
-F 6 "Sensors, Transducers" H 9400 6500 60  0001 L CNN "Category"
-F 7 "Optical Sensors - Reflective - Analog Output" H 9400 6600 60  0001 L CNN "Family"
-F 8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 6700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 9400 6800 60  0001 L CNN "DK_Detail_Page"
-F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 9400 6900 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 9400 7000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9400 7100 60  0001 L CNN "Status"
-F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
-	1    9200 5900
-	1    0    0    -1  
-$EndComp
 Connection ~ 9500 6000
 $Comp
 L Diode:1.5KExxA D2
@@ -1387,8 +1187,8 @@ U 1 1 5C197C3A
 P 1950 3750
 F 0 "D2" V 2300 3750 50  0000 R CNN
 F 1 "ESDA7P60-1U1M" V 2200 4100 50  0000 R CNN
-F 2 "localLib7:ESDA7P601U1M" H 1950 3550 50  0001 C CNN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/44/e9/26/44/42/ee/4f/e5/DM00139972.pdf/files/DM00139972.pdf/jcr:content/translations/en.DM00139972.pdf" H 1900 3750 50  0001 C CNN
+F 2 "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" H 1950 3550 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 1900 3750 50  0001 C CNN
 F 4 "STMicroelectronics" H 1950 3750 50  0001 C CNN "Manufacturer"
 F 5 "ESDA7P60-1U1M" H 1950 3750 50  0001 C CNN "Mfg Part #"
 F 6 "TVS Diode" H 1950 3750 50  0001 C CNN "Description"
@@ -1423,7 +1223,7 @@ P 4800 2700
 F 0 "C8" H 4650 2500 50  0000 L CNN
 F 1 "0.1uF" H 4550 2600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4800 2700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10F104ZB8NNNC.jsp" H 4800 2700 50  0001 C CNN
+F 3 "~" H 4800 2700 50  0001 C CNN
 F 4 "0.1µF -20%, +80% 50V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Description"
 F 5 "0.1µF -20%, +80% 50V Ceramic Capacitor Y5V (F) 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Digi-Key_PN"
 F 6 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
@@ -1508,7 +1308,7 @@ P 5050 2700
 F 0 "C9" H 4900 2500 50  0000 L CNN
 F 1 "10nF" H 4800 2600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5050 2700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B103KB8NCNC.jsp" H 5050 2700 50  0001 C CNN
+F 3 "~" H 5050 2700 50  0001 C CNN
 F 4 "10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Description"
 F 5 "10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Digi-Key_PN"
 F 6 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
@@ -1527,7 +1327,7 @@ P 5350 2700
 F 0 "C10" H 5200 2500 50  0000 L CNN
 F 1 "10nF" H 5100 2600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5350 2700 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10B103KB8NCNC.jsp" H 5350 2700 50  0001 C CNN
+F 3 "~" H 5350 2700 50  0001 C CNN
 F 4 "10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Description"
 F 5 "10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)" H 0   0   50  0001 C CNN "Digi-Key_PN"
 F 6 "Samsung" H 0   0   50  0001 C CNN "Manufacturer"
@@ -1549,21 +1349,6 @@ Wire Wire Line
 Connection ~ 5050 2400
 Wire Wire Line
 	5050 2400 5350 2400
-$Comp
-L Switch:SW_Push_Dual SW5
-U 1 1 5C8F0E2F
-P 7200 2750
-F 0 "SW5" H 7200 3150 50  0000 C CNN
-F 1 "Unused Tact switch Location" H 7200 3050 50  0000 C CNN
-F 2 "localLib:TL3305BF160QG" H 7200 2950 50  0001 C CNN
-F 3 "" H 7200 2950 50  0001 C CNN
-F 4 "C&K" H 7200 2750 50  0001 C CNN "Manufacturer"
-F 5 "unsed" H 7200 2750 50  0001 C CNN "Mfg Part #"
-F 6 "4 mm SMD" H 7200 2750 50  0001 C CNN "Package"
-F 7 "Do not include in assembly. This is just an alternate location for SW2. " H 7200 2750 50  0001 C CNN "Instructions"
-	1    7200 2750
-	1    0    0    -1  
-$EndComp
 Text Label 6750 2750 0    50   ~ 0
 SCK
 Connection ~ 7650 3400
@@ -1573,7 +1358,6 @@ Wire Wire Line
 	6750 2750 7000 2750
 Wire Wire Line
 	7400 2750 7650 2750
-Connection ~ 7400 2750
 Wire Wire Line
 	7650 2750 7650 3400
 Text Notes 6750 2600 0    50   ~ 0
@@ -1673,7 +1457,7 @@ P 3150 5250
 F 0 "R17" V 3150 5250 50  0000 C CNN
 F 1 "5.1k" V 3050 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 5250 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3150 5250 50  0001 C CNN
+F 3 "~" H 3150 5250 50  0001 C CNN
 F 4 "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H -100 2650 50  0001 C CNN "Description"
 F 5 "Panasonic" H -100 2650 50  0001 C CNN "Manufacturer"
 F 6 "ERJ-3GEYJ103V" H -100 2650 50  0001 C CNN "Mfg Part #"
@@ -1688,7 +1472,7 @@ P 3150 5350
 F 0 "R18" V 3150 5350 50  0000 C CNN
 F 1 "5.1k" V 3250 5350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 5350 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3150 5350 50  0001 C CNN
+F 3 "~" H 3150 5350 50  0001 C CNN
 F 4 "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H -100 2750 50  0001 C CNN "Description"
 F 5 "Panasonic" H -100 2750 50  0001 C CNN "Manufacturer"
 F 6 "ERJ-3GEYJ103V" H -100 2750 50  0001 C CNN "Mfg Part #"
@@ -1714,7 +1498,7 @@ P 3150 4200
 F 0 "R3" V 3150 4200 50  0000 C CNN
 F 1 "22" V 3250 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 4200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3150 4200 50  0001 C CNN
+F 3 "~" H 3150 4200 50  0001 C CNN
 F 4 "22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Digi-Key_PN"
 F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
@@ -1730,7 +1514,7 @@ P 3150 4100
 F 0 "R2" V 3150 4100 50  0000 C CNN
 F 1 "22" V 3034 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 4100 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3150 4100 50  0001 C CNN
+F 3 "~" H 3150 4100 50  0001 C CNN
 F 4 "22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
 F 5 "22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Digi-Key_PN"
 F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
@@ -1743,4 +1527,302 @@ Text Label 2750 4100 0    50   ~ 0
 RR+
 Text Label 2750 4200 0    50   ~ 0
 RR-
+$Comp
+L SJ2-35954C-SMT-TR:SJ2-35954C-SMT-TR J3
+U 1 1 5F564F49
+P 5950 1500
+F 0 "J3" H 6057 2167 50  0000 C CNN
+F 1 "SJ2-35954C-SMT-TR" H 6057 2076 50  0000 C CNN
+F 2 "WARBL_PCB:WARBL_CUI_SJ2-35954C-SMT-TR" H 5950 1500 50  0001 L BNN
+F 3 "1.01" H 5950 1500 50  0001 L BNN
+F 4 "CUI" H 5950 1500 50  0001 L BNN "Field4"
+F 5 "Manufacturer recommendation" H 5950 1500 50  0001 L BNN "Field5"
+	1    5950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5F56B1A1
+P 6650 1900
+F 0 "#PWR0102" H 6650 1750 50  0001 C CNN
+F 1 "+3.3V" V 6665 2028 50  0000 L CNN
+F 2 "" H 6650 1900 50  0001 C CNN
+F 3 "" H 6650 1900 50  0001 C CNN
+	1    6650 1900
+	0    1    1    0   
+$EndComp
+Text Label 6650 1700 0    50   ~ 0
+PB0
+Text Label 6650 1500 0    50   ~ 0
+PF0
+Text Label 6650 1300 0    50   ~ 0
+PB7
+$Comp
+L Device:R R14
+U 1 1 5F59C74C
+P 7150 1350
+F 0 "R14" H 7080 1304 50  0000 R CNN
+F 1 "10k" H 7080 1395 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7080 1350 50  0001 C CNN
+F 3 "~" H 7150 1350 50  0001 C CNN
+	1    7150 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 1500 7150 1500
+$Comp
+L Device:R R5
+U 1 1 5F5A963F
+P 7000 1100
+F 0 "R5" V 6793 1100 50  0000 C CNN
+F 1 "100" V 6884 1100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6930 1100 50  0001 C CNN
+F 3 "~" H 7000 1100 50  0001 C CNN
+	1    7000 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 1100 7150 1200
+$Comp
+L ESDA7P60-1U1M:ESDA7P60-1U1M CR1
+U 1 1 5F5F192B
+P 7150 750
+F 0 "CR1" H 7200 650 60  0000 C CNN
+F 1 "ESDA7P60-1U1M" H 7800 650 60  0000 C CNN
+F 2 "WARBL_PCB:ESDA7P60-1U1M" H 7350 390 60  0001 C CNN
+F 3 "" H 7150 750 60  0000 C CNN
+	1    7150 750 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5F5F3850
+P 7150 1100
+F 0 "#PWR0108" H 7150 850 50  0001 C CNN
+F 1 "GND" V 7155 972 50  0000 R CNN
+F 2 "" H 7150 1100 50  0001 C CNN
+F 3 "" H 7150 1100 50  0001 C CNN
+	1    7150 1100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 1100 6750 1100
+Wire Wire Line
+	7150 750  7150 1100
+Connection ~ 7150 1100
+Wire Wire Line
+	6750 750  6750 1100
+Connection ~ 6750 1100
+Wire Wire Line
+	6750 1100 6850 1100
+$Comp
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U6
+U 1 1 5C196DB4
+P 9200 2900
+F 0 "U6" H 9200 3247 60  0000 C CNN
+F 1 "QRD1114" H 9200 3141 60  0000 C CNN
+F 2 "WARBL_PCB:Reflective_Sensor_QRD1114" H 9400 3100 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 3200 60  0001 L CNN
+F 4 "QRD1114-ND" H 9400 3300 60  0001 L CNN "Digi-Key_PN"
+F 5 "QRD1114" H 9400 3400 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 9400 3500 60  0001 L CNN "Category"
+F 7 "Optical Sensors - Reflective - Analog Output" H 9400 3600 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 3700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 9400 3800 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 9400 3900 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 9400 4000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9400 4100 60  0001 L CNN "Status"
+F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
+	1    9200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U7
+U 1 1 5C196E30
+P 9200 3500
+F 0 "U7" H 9200 3847 60  0000 C CNN
+F 1 "QRD1114" H 9200 3741 60  0000 C CNN
+F 2 "WARBL_PCB:Reflective_Sensor_QRD1114" H 9400 3700 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 3800 60  0001 L CNN
+F 4 "QRD1114-ND" H 9400 3900 60  0001 L CNN "Digi-Key_PN"
+F 5 "QRD1114" H 9400 4000 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 9400 4100 60  0001 L CNN "Category"
+F 7 "Optical Sensors - Reflective - Analog Output" H 9400 4200 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 4300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 9400 4400 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 9400 4500 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 9400 4600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9400 4700 60  0001 L CNN "Status"
+F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
+	1    9200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U8
+U 1 1 5C196F70
+P 9200 4100
+F 0 "U8" H 9200 4447 60  0000 C CNN
+F 1 "QRD1114" H 9200 4341 60  0000 C CNN
+F 2 "WARBL_PCB:Reflective_Sensor_QRD1114" H 9400 4300 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 4400 60  0001 L CNN
+F 4 "QRD1114-ND" H 9400 4500 60  0001 L CNN "Digi-Key_PN"
+F 5 "QRD1114" H 9400 4600 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 9400 4700 60  0001 L CNN "Category"
+F 7 "Optical Sensors - Reflective - Analog Output" H 9400 4800 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 4900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 9400 5000 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 9400 5100 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 9400 5200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9400 5300 60  0001 L CNN "Status"
+F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
+	1    9200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U9
+U 1 1 5C196FF2
+P 9200 4700
+F 0 "U9" H 9200 5047 60  0000 C CNN
+F 1 "QRD1114" H 9200 4941 60  0000 C CNN
+F 2 "WARBL_PCB:Reflective_Sensor_QRD1114" H 9400 4900 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 5000 60  0001 L CNN
+F 4 "QRD1114-ND" H 9400 5100 60  0001 L CNN "Digi-Key_PN"
+F 5 "QRD1114" H 9400 5200 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 9400 5300 60  0001 L CNN "Category"
+F 7 "Optical Sensors - Reflective - Analog Output" H 9400 5400 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 5500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 9400 5600 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 9400 5700 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 9400 5800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9400 5900 60  0001 L CNN "Status"
+F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
+	1    9200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U10
+U 1 1 5C1970CC
+P 9200 5300
+F 0 "U10" H 9200 5647 60  0000 C CNN
+F 1 "QRD1114" H 9200 5541 60  0000 C CNN
+F 2 "WARBL_PCB:Reflective_Sensor_QRD1114" H 9400 5500 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 5600 60  0001 L CNN
+F 4 "QRD1114-ND" H 9400 5700 60  0001 L CNN "Digi-Key_PN"
+F 5 "QRD1114" H 9400 5800 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 9400 5900 60  0001 L CNN "Category"
+F 7 "Optical Sensors - Reflective - Analog Output" H 9400 6000 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 6100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 9400 6200 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 9400 6300 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 9400 6400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9400 6500 60  0001 L CNN "Status"
+F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
+	1    9200 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U11
+U 1 1 5C197152
+P 9200 5900
+F 0 "U11" H 9200 6247 60  0000 C CNN
+F 1 "QRD1114" H 9200 6141 60  0000 C CNN
+F 2 "WARBL_PCB:Reflective_Sensor_QRD1114" H 9400 6100 60  0001 L CNN
+F 3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 6200 60  0001 L CNN
+F 4 "QRD1114-ND" H 9400 6300 60  0001 L CNN "Digi-Key_PN"
+F 5 "QRD1114" H 9400 6400 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 9400 6500 60  0001 L CNN "Category"
+F 7 "Optical Sensors - Reflective - Analog Output" H 9400 6600 60  0001 L CNN "Family"
+F 8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" H 9400 6700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 9400 6800 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 9400 6900 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 9400 7000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9400 7100 60  0001 L CNN "Status"
+F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
+	1    9200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5B761C65
+P 9650 6100
+F 0 "R13" V 9650 6100 50  0000 C CNN
+F 1 "1k" V 9750 6100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 9580 6100 50  0001 C CNN
+F 3 "~" H 9650 6100 50  0001 C CNN
+F 4 "1 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
+F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ERJ-3GEYJ102V" H 0   0   50  0001 C CNN "Mfg Part #"
+F 7 "0603" H 0   0   50  0001 C CNN "Package"
+	1    9650 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L WARBL2.2-rescue:ATmega32U4-MU-MCU_Microchip_ATmega-WARBL2.2-rescue U2
+U 1 1 5B734758
+P 4100 4600
+F 0 "U2" H 4000 4450 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 4000 4350 50  0000 C CNN
+F 2 "WARBL_PCB:QFN-44-1EP_7x7mm_Pitch0.5mm" H 4100 4600 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 4100 4600 50  0001 C CNN
+F 4 "microcontroller" H 0   0   50  0001 C CNN "Description"
+F 5 "Microchip" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "ATMEGA32U4-MU" H 0   0   50  0001 C CNN "Mfg Part #"
+F 7 "44-VQFN (7x7)" H 0   0   50  0001 C CNN "Package"
+	1    4100 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 2950 7000 2750
+Connection ~ 7400 2750
+Connection ~ 7000 2750
+$Comp
+L WARBL2.2-rescue:SW_Push_Dual SW5
+U 1 1 5F7F8D56
+P 7200 2750
+F 0 "SW5" H 7200 3035 50  0000 C CNN
+F 1 "SW_Push_Dual" H 7200 2944 50  0000 C CNN
+F 2 "WARBL_PCB:TL3305BF160QG" H 7200 2950 50  0001 C CNN
+F 3 "~" H 7200 2950 50  0001 C CNN
+	1    7200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L WARBL2.2-rescue:SW_Push_Dual SW2
+U 1 1 5F870195
+P 7200 3400
+F 0 "SW2" H 7200 3685 50  0000 C CNN
+F 1 "Tact switch" H 7200 3594 50  0000 C CNN
+F 2 "WARBL_PCB:TL3305BF160QG" H 7200 3600 50  0001 C CNN
+F 3 "~" H 7200 3600 50  0001 C CNN
+	1    7200 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 3400
+Connection ~ 7400 3400
+$Comp
+L WARBL2.2-rescue:SW_Push_Dual SW3
+U 1 1 5F8B7221
+P 7200 4050
+F 0 "SW3" H 7200 4335 50  0000 C CNN
+F 1 "Tact switch" H 7200 4244 50  0000 C CNN
+F 2 "WARBL_PCB:TL3305BF160QG" H 7200 4250 50  0001 C CNN
+F 3 "~" H 7200 4250 50  0001 C CNN
+	1    7200 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 4050
+Connection ~ 7400 4050
+$Comp
+L WARBL2.2-rescue:SW_Push_Dual SW4
+U 1 1 5F8CD67A
+P 7200 4700
+F 0 "SW4" H 7200 4985 50  0000 C CNN
+F 1 "Tact switch" H 7200 4894 50  0000 C CNN
+F 2 "WARBL_PCB:TL3305BF160QG" H 7200 4900 50  0001 C CNN
+F 3 "~" H 7200 4900 50  0001 C CNN
+	1    7200 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7000 4700
+Connection ~ 7400 4700
 $EndSCHEMATC

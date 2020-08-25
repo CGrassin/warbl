@@ -1,2 +1,4 @@
 (fp_lib_table
+  (lib (name SJ2-35894C-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/SJ2-35894C-SMT-TR.mod)(options "")(descr ""))
+  (lib (name WARBL_PCB)(type KiCad)(uri ${KIPRJMOD}/localLib.pretty/WARBL_PCB.pretty)(options "")(descr ""))
 )
