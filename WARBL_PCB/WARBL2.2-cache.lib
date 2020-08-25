@@ -1,31 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 4_con_switch_3.5mm_jack_AudioJack4_Ground
-#
-DEF 4_con_switch_3.5mm_jack_AudioJack4_Ground J 0 40 Y Y 1 F N
-F0 "J" 0 350 50 H V C CNN
-F1 "4_con_switch_3.5mm_jack_AudioJack4_Ground" 0 250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -250 -300 -280 -200 0 1 0 F
-S 100 150 -250 -450 0 1 0 f
-P 2 0 1 0 50 -100 0 -150 N
-P 2 0 1 0 50 -100 100 -150 N
-P 3 0 1 0 100 -250 50 -250 50 -100 N
-P 4 0 1 10 0 -350 25 -375 50 -350 100 -350 N
-P 5 0 1 10 -225 -200 -200 -225 -175 -200 -175 100 100 100 N
-P 5 0 1 10 -75 -200 -50 -225 -25 -200 -25 -100 100 -100 N
-P 5 0 1 10 100 0 -100 0 -100 -200 -125 -225 -150 -200 N
-X S 1 200 100 100 L 50 50 1 1 P
-X Sw 11 200 -250 100 L 50 50 1 1 P
-X T 2 200 -350 100 L 50 50 1 1 P
-X R1 3 200 -100 100 L 50 50 1 1 P
-X R2 4 200 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_Generic_Conn_02x03_Odd_Even
 #
 DEF Connector_Generic_Conn_02x03_Odd_Even J 0 40 Y N 1 F N
@@ -53,39 +28,61 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_USB_B_Micro
+# Connector_USB_C_Receptacle_USB2.0
 #
-DEF Connector_USB_B_Micro J 0 40 Y Y 1 F N
-F0 "J" -200 450 50 H V L CNN
-F1 "Connector_USB_B_Micro" -200 350 50 H V L CNN
-F2 "" 150 -50 50 H I C CNN
-F3 "" 150 -50 50 H I C CNN
-ALIAS USB_B_Mini
+DEF Connector_USB_C_Receptacle_USB2.0 J 0 40 Y Y 1 F N
+F0 "J" -400 750 50 H V L CNN
+F1 "Connector_USB_C_Receptacle_USB2.0" 750 750 50 H V R CNN
+F2 "" 150 0 50 H I C CNN
+F3 "" 150 0 50 H I C CNN
 $FPLIST
- USB*
+ USB*C*Receptacle*
 $ENDFPLIST
 DRAW
-C -150 85 25 0 1 10 F
-C -25 135 15 0 1 10 F
-S -200 -300 200 300 0 1 10 f
-S -5 -300 5 -270 0 1 0 N
-S 10 50 -20 20 0 1 10 F
-S 200 -205 170 -195 0 1 0 N
-S 200 -105 170 -95 0 1 0 N
-S 200 -5 170 5 0 1 0 N
-S 200 195 170 205 0 1 0 N
-P 2 0 1 10 -75 85 25 85 N
-P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
-P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
-P 4 0 1 10 25 110 25 60 75 85 25 110 F
-P 5 0 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
-P 9 0 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
-X VBUS 1 300 200 100 L 50 50 1 1 w
-X D- 2 300 -100 100 L 50 50 1 1 P
-X D+ 3 300 0 100 L 50 50 1 1 P
-X ID 4 300 -200 100 L 50 50 1 1 P
-X GND 5 0 -400 100 U 50 50 1 1 w
-X Shield 6 -100 -400 100 U 50 50 1 1 P
+A -275 -150 75 -1799 -1 0 1 20 N -350 -150 -200 -150
+A -275 -150 25 -1799 -1 0 1 10 N -300 -150 -250 -150
+A -275 -150 25 -1799 -1 0 1 10 F -300 -150 -250 -150
+A -275 150 25 1 1799 0 1 10 F -250 150 -300 150
+A -275 150 25 1 1799 0 1 10 N -250 150 -300 150
+A -275 150 75 1 1799 0 1 20 N -200 150 -350 150
+C -100 45 25 0 1 10 F
+C 0 -230 50 0 1 0 F
+S -10 -700 10 -660 0 0 0 N
+S 400 -590 360 -610 0 0 0 N
+S 400 -490 360 -510 0 0 0 N
+S 400 -190 360 -210 0 0 0 N
+S 400 -90 360 -110 0 0 0 N
+S 400 10 360 -10 0 0 0 N
+S 400 110 360 90 0 0 0 N
+S 400 310 360 290 0 0 0 N
+S 400 410 360 390 0 0 0 N
+S 400 610 360 590 0 0 0 N
+S -400 700 400 -700 0 1 10 f
+S -300 -150 -250 150 0 1 10 F
+S 75 70 125 120 0 1 10 F
+P 2 0 1 20 -350 -150 -350 150 N
+P 2 0 1 20 -200 150 -200 -150 N
+P 2 0 1 20 0 -230 0 170 N
+P 3 0 1 20 0 -130 -100 -30 -100 20 N
+P 3 0 1 20 0 -80 100 20 100 70 N
+P 4 0 1 10 -50 170 0 270 50 170 -50 170 F
+X GND A1 0 -900 200 U 50 50 1 1 W
+X GND A12 0 -900 200 U 50 50 1 1 P N
+X VBUS A4 600 600 200 L 50 50 1 1 W
+X CC1 A5 600 400 200 L 50 50 1 1 B
+X D+ A6 600 -100 200 L 50 50 1 1 B
+X D- A7 600 100 200 L 50 50 1 1 B
+X SBU1 A8 600 -500 200 L 50 50 1 1 B
+X VBUS A9 600 600 200 L 50 50 1 1 P N
+X GND B1 0 -900 200 U 50 50 1 1 P N
+X GND B12 0 -900 200 U 50 50 1 1 P N
+X VBUS B4 600 600 200 L 50 50 1 1 P N
+X CC2 B5 600 300 200 L 50 50 1 1 B
+X D+ B6 600 -200 200 L 50 50 1 1 B
+X D- B7 600 0 200 L 50 50 1 1 B
+X SBU2 B8 600 -600 200 L 50 50 1 1 B
+X VBUS B9 600 600 200 L 50 50 1 1 P N
+X SHIELD S1 -300 -900 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -120,9 +117,9 @@ $FPLIST
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 10 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -194,59 +191,10 @@ $FPLIST
  D?DO?201AE*
 $ENDFPLIST
 DRAW
-P 3 0 1 8 -30 50 -50 50 -50 -50 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 3 0 1 10 -30 50 -50 50 -50 -50 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
 X A1 1 -150 0 100 R 50 50 1 1 P
 X A2 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# ECMF02-2AMX6_ECMF02-2AMX6
-#
-DEF ECMF02-2AMX6_ECMF02-2AMX6 IC 0 30 Y Y 1 F N
-F0 "IC" 850 300 50 H V L CNN
-F1 "ECMF02-2AMX6_ECMF02-2AMX6" 850 200 50 H V L CNN
-F2 "SON50P150X170X55-6N-D" 850 100 50 H I L CNN
-F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/3a/28/cf/d0/31/63/48/8c/CD00282307.pdf/files/CD00282307.pdf/jcr:content/translations/en.CD00282307.pdf" 850 0 50 H I L CNN
-F4 "Common Mode Filter & ESD Prot. USB uQFN6 STMicroelectronics ECMF02 Series, Signal Filter, 200mA QFN SMD, Flat Contact Termination, 1.8 x 1.6 x 0.5mm" 850 -100 50 H I L CNN "Description"
-F5 "0.55" 850 -200 50 H I L CNN "Height"
-F6 "STMicroelectronics" 850 -300 50 H I L CNN "Manufacturer_Name"
-F7 "ECMF02-2AMX6" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "1655521" 850 -500 50 H I L CNN "RS Part Number"
-F9 "http://uk.rs-online.com/web/p/products/1655521" 850 -600 50 H I L CNN "RS Price/Stock"
-F10 "ECMF02-2AMX6" 850 -700 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/ecmf02-2amx6/stmicroelectronics" 850 -800 50 H I L CNN "Arrow Price/Stock"
-DRAW
-P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
-X D_1 1 0 0 200 R 50 50 0 0 B
-X D_2 2 0 -100 200 R 50 50 0 0 B
-X GND 3 0 -200 200 R 50 50 0 0 B
-X NC 4 1000 -200 200 L 50 50 0 0 B
-X D- 5 1000 -100 200 L 50 50 0 0 B
-X D+ 6 1000 0 200 L 50 50 0 0 B
-ENDDRAW
-ENDDEF
-#
-# Honeywell_Sensor_Pressure_40PC015G
-#
-DEF Honeywell_Sensor_Pressure_40PC015G U 0 40 Y Y 1 F N
-F0 "U" -400 250 50 H V L CNN
-F1 "Honeywell_Sensor_Pressure_40PC015G" 250 250 50 H V C CNN
-F2 "" 100 0 50 H I C CNN
-F3 "" 100 0 50 H I C CNN
-ALIAS 40PC100G 40PC150G 40PC250G
-DRAW
-C -230 60 103 0 1 20 N
-S 300 200 -400 -200 0 1 10 f
-P 2 0 1 10 -280 10 -180 110 N
-P 2 0 1 20 -230 -50 -230 -150 N
-P 4 0 1 10 -180 110 -190 70 -220 100 -180 110 F
-X GND 1 0 -300 100 U 50 50 1 1 W
-X NC 2 -100 -300 100 U 50 50 1 1 N N
-X Vout 3 400 0 100 L 50 50 1 1 O
-X NC 4 -300 -300 100 U 50 50 1 1 N N
-X NC 5 -200 -300 100 U 50 50 1 1 N N
-X Vcc 6 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
@@ -293,11 +241,33 @@ X 4 4 200 -200 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# WARBL2.2-rescue_ATmega32U4-MU-MCU_Microchip_ATmega
+# WARBL2.2-rescue_40PC015G-Honeywell_Sensor_Pressure
 #
-DEF WARBL2.2-rescue_ATmega32U4-MU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
+DEF WARBL2.2-rescue_40PC015G-Honeywell_Sensor_Pressure U 0 40 Y Y 1 F N
+F0 "U" -400 250 50 H V L CNN
+F1 "WARBL2.2-rescue_40PC015G-Honeywell_Sensor_Pressure" 250 250 50 H V C CNN
+F2 "" 100 0 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+DRAW
+C -230 60 103 0 1 20 N
+S 300 200 -400 -200 0 1 10 f
+P 2 0 1 10 -280 10 -180 110 N
+P 2 0 1 20 -230 -50 -230 -150 N
+P 4 0 1 10 -180 110 -190 70 -220 100 -180 110 F
+X GND 1 0 -300 100 U 50 50 1 1 W
+X NC 2 -100 -300 100 U 50 50 1 1 N N
+X Vout 3 400 0 100 L 50 50 1 1 O
+X NC 4 -300 -300 100 U 50 50 1 1 N N
+X NC 5 -200 -300 100 U 50 50 1 1 N N
+X Vcc 6 0 300 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# WARBL2.2-rescue_ATmega32U4-MU-MCU_Microchip_ATmega-WARBL2.2-rescue
+#
+DEF WARBL2.2-rescue_ATmega32U4-MU-MCU_Microchip_ATmega-WARBL2.2-rescue U 0 20 Y Y 1 F N
 F0 "U" -500 1750 50 H V L BNN
-F1 "WARBL2.2-rescue_ATmega32U4-MU-MCU_Microchip_ATmega" 100 -1750 50 H V L TNN
+F1 "WARBL2.2-rescue_ATmega32U4-MU-MCU_Microchip_ATmega-WARBL2.2-rescue" 100 -1750 50 H V L TNN
 F2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.4x5.4mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -353,11 +323,37 @@ X PB1 9 600 1400 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# WARBL2.2-rescue_MIC5205-3.3-Regulator_Linear
+# WARBL2.2-rescue_ECMF02-2AMX6-ECMF02-2AMX6
 #
-DEF WARBL2.2-rescue_MIC5205-3.3-Regulator_Linear U 0 10 Y Y 1 F N
+DEF WARBL2.2-rescue_ECMF02-2AMX6-ECMF02-2AMX6 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "WARBL2.2-rescue_ECMF02-2AMX6-ECMF02-2AMX6" 850 200 50 H V L CNN
+F2 "SON50P150X170X55-6N-D" 850 100 50 H I L CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/3a/28/cf/d0/31/63/48/8c/CD00282307.pdf/files/CD00282307.pdf/jcr:content/translations/en.CD00282307.pdf" 850 0 50 H I L CNN
+F4 "Common Mode Filter & ESD Prot. USB uQFN6 STMicroelectronics ECMF02 Series, Signal Filter, 200mA QFN SMD, Flat Contact Termination, 1.8 x 1.6 x 0.5mm" 850 -100 50 H I L CNN "Description"
+F5 "0.55" 850 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ECMF02-2AMX6" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1655521" 850 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1655521" 850 -600 50 H I L CNN "RS Price/Stock"
+F10 "ECMF02-2AMX6" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ecmf02-2amx6/stmicroelectronics" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X D_1 1 0 0 200 R 50 50 0 0 B
+X D_2 2 0 -100 200 R 50 50 0 0 B
+X GND 3 0 -200 200 R 50 50 0 0 B
+X NC 4 1000 -200 200 L 50 50 0 0 B
+X D- 5 1000 -100 200 L 50 50 0 0 B
+X D+ 6 1000 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# WARBL2.2-rescue_MIC5205-3.3-Regulator_Linear-WARBL2.2-rescue
+#
+DEF WARBL2.2-rescue_MIC5205-3.3-Regulator_Linear-WARBL2.2-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 225 50 H V C CNN
-F1 "WARBL2.2-rescue_MIC5205-3.3-Regulator_Linear" 0 225 50 H V L CNN
+F1 "WARBL2.2-rescue_MIC5205-3.3-Regulator_Linear-WARBL2.2-rescue" 0 225 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 325 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -373,11 +369,11 @@ X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# dk_Optical-Sensors-Reflective-Analog-Output_QRD1114
+# WARBL2.2-rescue_QRD1114-dk_Optical-Sensors-Reflective-Analog-Output
 #
-DEF dk_Optical-Sensors-Reflective-Analog-Output_QRD1114 U 0 40 Y Y 1 F N
+DEF WARBL2.2-rescue_QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U 0 40 Y Y 1 F N
 F0 "U" 0 200 60 H V C CNN
-F1 "dk_Optical-Sensors-Reflective-Analog-Output_QRD1114" 0 -275 60 H V C CNN
+F1 "WARBL2.2-rescue_QRD1114-dk_Optical-Sensors-Reflective-Analog-Output" 0 -275 60 H V C CNN
 F2 "digikey-footprints:Reflective_Sensor_QRD1114" 200 200 60 H I L CNN
 F3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" 200 300 60 H I L CNN
 F4 "QRD1114-ND" 200 400 60 H I L CNN "Digi-Key_PN"

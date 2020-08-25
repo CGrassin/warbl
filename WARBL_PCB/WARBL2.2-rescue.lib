@@ -1,11 +1,33 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ATmega32U4-MU-MCU_Microchip_ATmega
+# 40PC015G-Honeywell_Sensor_Pressure
 #
-DEF ATmega32U4-MU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
+DEF 40PC015G-Honeywell_Sensor_Pressure U 0 40 Y Y 1 F N
+F0 "U" -400 250 50 H V L CNN
+F1 "40PC015G-Honeywell_Sensor_Pressure" 250 250 50 H V C CNN
+F2 "" 100 0 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+DRAW
+C -230 60 103 0 1 20 N
+S 300 200 -400 -200 0 1 10 f
+P 2 0 1 10 -280 10 -180 110 N
+P 2 0 1 20 -230 -50 -230 -150 N
+P 4 0 1 10 -180 110 -190 70 -220 100 -180 110 F
+X GND 1 0 -300 100 U 50 50 1 1 W
+X NC 2 -100 -300 100 U 50 50 1 1 N N
+X Vout 3 400 0 100 L 50 50 1 1 O
+X NC 4 -300 -300 100 U 50 50 1 1 N N
+X NC 5 -200 -300 100 U 50 50 1 1 N N
+X Vcc 6 0 300 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# ATmega32U4-MU-MCU_Microchip_ATmega-WARBL2.2-rescue
+#
+DEF ATmega32U4-MU-MCU_Microchip_ATmega-WARBL2.2-rescue U 0 20 Y Y 1 F N
 F0 "U" -500 1750 50 H V L BNN
-F1 "ATmega32U4-MU-MCU_Microchip_ATmega" 100 -1750 50 H V L TNN
+F1 "ATmega32U4-MU-MCU_Microchip_ATmega-WARBL2.2-rescue" 100 -1750 50 H V L TNN
 F2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.4x5.4mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -61,11 +83,62 @@ X PB1 9 600 1400 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# MIC5205-3.3-Regulator_Linear
+# AudioJack4_Ground-4_con_switch_3.5mm_jack
 #
-DEF MIC5205-3.3-Regulator_Linear U 0 10 Y Y 1 F N
+DEF AudioJack4_Ground-4_con_switch_3.5mm_jack J 0 40 Y Y 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "AudioJack4_Ground-4_con_switch_3.5mm_jack" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -250 -300 -280 -200 0 1 0 F
+S 100 150 -250 -450 0 1 0 f
+P 2 0 1 0 50 -100 0 -150 N
+P 2 0 1 0 50 -100 100 -150 N
+P 3 0 1 0 100 -250 50 -250 50 -100 N
+P 4 0 1 10 0 -350 25 -375 50 -350 100 -350 N
+P 5 0 1 10 -225 -200 -200 -225 -175 -200 -175 100 100 100 N
+P 5 0 1 10 -75 -200 -50 -225 -25 -200 -25 -100 100 -100 N
+P 5 0 1 10 100 0 -100 0 -100 -200 -125 -225 -150 -200 N
+X S 1 200 100 100 L 50 50 1 1 P
+X Sw 11 200 -250 100 L 50 50 1 1 P
+X T 2 200 -350 100 L 50 50 1 1 P
+X R1 3 200 -100 100 L 50 50 1 1 P
+X R2 4 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ECMF02-2AMX6-ECMF02-2AMX6
+#
+DEF ECMF02-2AMX6-ECMF02-2AMX6 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "ECMF02-2AMX6-ECMF02-2AMX6" 850 200 50 H V L CNN
+F2 "SON50P150X170X55-6N-D" 850 100 50 H I L CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/3a/28/cf/d0/31/63/48/8c/CD00282307.pdf/files/CD00282307.pdf/jcr:content/translations/en.CD00282307.pdf" 850 0 50 H I L CNN
+F4 "Common Mode Filter & ESD Prot. USB uQFN6 STMicroelectronics ECMF02 Series, Signal Filter, 200mA QFN SMD, Flat Contact Termination, 1.8 x 1.6 x 0.5mm" 850 -100 50 H I L CNN "Description"
+F5 "0.55" 850 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ECMF02-2AMX6" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1655521" 850 -500 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1655521" 850 -600 50 H I L CNN "RS Price/Stock"
+F10 "ECMF02-2AMX6" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ecmf02-2amx6/stmicroelectronics" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+X D_1 1 0 0 200 R 50 50 0 0 B
+X D_2 2 0 -100 200 R 50 50 0 0 B
+X GND 3 0 -200 200 R 50 50 0 0 B
+X NC 4 1000 -200 200 L 50 50 0 0 B
+X D- 5 1000 -100 200 L 50 50 0 0 B
+X D+ 6 1000 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+# MIC5205-3.3-Regulator_Linear-WARBL2.2-rescue
+#
+DEF MIC5205-3.3-Regulator_Linear-WARBL2.2-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 225 50 H V C CNN
-F1 "MIC5205-3.3-Regulator_Linear" 0 225 50 H V L CNN
+F1 "MIC5205-3.3-Regulator_Linear-WARBL2.2-rescue" 0 225 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 0 325 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -78,6 +151,56 @@ X GND 2 0 -300 100 U 50 50 1 1 W
 X EN 3 -300 0 100 R 50 50 1 1 I
 X BP 4 300 0 100 L 50 50 1 1 I
 X OUT 5 300 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# QRD1114-dk_Optical-Sensors-Reflective-Analog-Output
+#
+DEF QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U 0 40 Y Y 1 F N
+F0 "U" 0 200 60 H V C CNN
+F1 "QRD1114-dk_Optical-Sensors-Reflective-Analog-Output" 0 -275 60 H V C CNN
+F2 "digikey-footprints:Reflective_Sensor_QRD1114" 200 200 60 H I L CNN
+F3 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" 200 300 60 H I L CNN
+F4 "QRD1114-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "QRD1114" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Optical Sensors - Reflective - Analog Output" 200 700 60 H I L CNN "Family"
+F8 "https://www.fairchildsemi.com/datasheets/QR/QRD1113.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SENSR OPTO TRANS 1.27MM REFL PCB" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -150 150 150 -200 0 1 0 f
+S -100 -150 100 -175 0 1 0 N
+P 2 0 1 0 -105 -25 -55 -25 N
+P 2 0 1 0 -100 -170 -80 -150 N
+P 2 0 1 0 -80 -175 -55 -150 N
+P 2 0 1 0 -60 -70 -25 -120 N
+P 2 0 1 0 -55 -175 -30 -150 N
+P 2 0 1 0 -30 -175 -5 -150 N
+P 2 0 1 0 -25 -120 -45 -115 N
+P 2 0 1 0 -25 -120 -25 -100 N
+P 2 0 1 0 -5 -175 20 -150 N
+P 2 0 1 0 20 -175 45 -150 N
+P 2 0 1 0 20 -120 55 -70 N
+P 2 0 1 0 45 -175 70 -150 N
+P 2 0 1 0 55 -70 35 -80 N
+P 2 0 1 0 55 -70 55 -90 N
+P 2 0 1 0 70 -175 95 -150 N
+P 2 0 1 0 75 -50 150 -100 N
+P 2 0 1 0 75 75 75 -75 N
+P 2 0 1 0 150 -100 200 -100 N
+P 2 0 1 0 150 100 75 50 N
+P 2 0 1 0 150 100 200 100 N
+P 3 0 1 0 -200 100 -80 100 -80 15 N
+P 3 0 1 0 -80 -25 -80 -100 -200 -100 N
+P 4 0 1 0 -100 15 -60 15 -80 -25 -100 15 F
+P 4 0 1 0 115 -60 100 -85 130 -85 115 -60 F
+X ~ 1 300 100 100 L 50 50 1 1 P
+X ~ 2 300 -100 100 L 50 50 1 1 P
+X ~ 3 -300 100 100 R 50 50 1 1 P
+X ~ 4 -300 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

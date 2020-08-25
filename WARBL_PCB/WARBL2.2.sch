@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:WARBL2.2-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L WARBL2.2-rescue:ATmega32U4-MU-MCU_Microchip_ATmega U2
+L WARBL2.2-rescue:ATmega32U4-MU-MCU_Microchip_ATmega-WARBL2.2-rescue U2
 U 1 1 5B734758
 P 4100 4600
 F 0 "U2" H 4000 4450 50  0000 C CNN
@@ -27,21 +26,6 @@ F 5 "Microchip" H 0   0   50  0001 C CNN "Manufacturer"
 F 6 "ATMEGA32U4-MU" H 0   0   50  0001 C CNN "Mfg Part #"
 F 7 "44-VQFN (7x7)" H 0   0   50  0001 C CNN "Package"
 	1    4100 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:USB_B_Micro J1
-U 1 1 5B73B850
-P 1300 4100
-F 0 "J1" H 1300 4650 50  0000 C CNN
-F 1 "USB_B_Micro" H 1300 4500 50  0000 C CNN
-F 2 "localLib5:USB_Micro_B_Female_10118194-0001LF" H 1450 4050 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_micro.pdf" H 1450 4050 50  0001 C CNN
-F 4 "Amphenol" H 1300 4100 50  0001 C CNN "Manufacturer"
-F 5 "10118194-0001LF" H 1300 4100 50  0001 C CNN "Mfg Part #"
-F 6 "Micro USB connector" H 1300 4100 50  0001 C CNN "Description"
-F 7 "Note that this is a pin-in-paste part." H 1300 4100 50  0001 C CNN "Instructions"
-	1    1300 4100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -61,7 +45,7 @@ F 8 "No substitutions please" H 2850 3400 50  0001 C CNN "Instructions"
 	0    1    1    0   
 $EndComp
 $Comp
-L WARBL2.2-rescue:MIC5205-3.3-Regulator_Linear U1
+L WARBL2.2-rescue:MIC5205-3.3-Regulator_Linear-WARBL2.2-rescue U1
 U 1 1 5B744A22
 P 2100 1600
 F 0 "U1" H 2100 1942 50  0000 C CNN
@@ -118,42 +102,6 @@ F 7 "0603" H 0   0   50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
-U 1 1 5B7479A0
-P 3150 4100
-F 0 "R2" V 3150 4100 50  0000 C CNN
-F 1 "22" V 3034 4100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3080 4100 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3150 4100 50  0001 C CNN
-F 4 "22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
-F 5 "22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Digi-Key_PN"
-F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "ERJ-3EKF22R0V" H 0   0   50  0001 C CNN "Mfg Part #"
-F 8 "0603" H 0   0   50  0001 C CNN "Package"
-	1    3150 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5B747BCD
-P 3150 4200
-F 0 "R3" V 3150 4200 50  0000 C CNN
-F 1 "22" V 3250 4200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 3080 4200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3150 4200 50  0001 C CNN
-F 4 "22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
-F 5 "22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Digi-Key_PN"
-F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "ERJ-3EKF22R0V" H 0   0   50  0001 C CNN "Mfg Part #"
-F 8 "0603" H 0   0   50  0001 C CNN "Package"
-	1    3150 4200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3300 4100 3500 4100
-Wire Wire Line
-	3300 4200 3500 4200
-$Comp
 L power:GND #PWR0101
 U 1 1 5B748684
 P 2550 3400
@@ -162,17 +110,6 @@ F 1 "GND" H 2555 3227 50  0000 C CNN
 F 2 "" H 2550 3400 50  0001 C CNN
 F 3 "" H 2550 3400 50  0001 C CNN
 	1    2550 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0102
-U 1 1 5B7486D7
-P 2600 3900
-F 0 "#PWR0102" H 2600 3750 50  0001 C CNN
-F 1 "+5V" H 2615 4073 50  0000 C CNN
-F 2 "" H 2600 3900 50  0001 C CNN
-F 3 "" H 2600 3900 50  0001 C CNN
-	1    2600 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -315,22 +252,6 @@ Wire Wire Line
 	3450 3700 3500 3700
 Wire Wire Line
 	3250 3700 3100 3700
-$Comp
-L power:GND #PWR0108
-U 1 1 5B74F3C6
-P 1300 4600
-F 0 "#PWR0108" H 1300 4350 50  0001 C CNN
-F 1 "GND" H 1305 4427 50  0000 C CNN
-F 2 "" H 1300 4600 50  0001 C CNN
-F 3 "" H 1300 4600 50  0001 C CNN
-	1    1300 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 4500 1300 4600
-NoConn ~ 1600 4300
-Wire Wire Line
-	2600 3900 3500 3900
 $Comp
 L power:+3V3 #PWR0109
 U 1 1 5B7506BA
@@ -664,33 +585,10 @@ Wire Wire Line
 	5850 4100 6150 4100
 Wire Wire Line
 	5550 4100 5450 4100
-Text Label 4800 3800 0    50   ~ 0
-PB7
 Wire Wire Line
 	4800 3800 4700 3800
-Text Label 6000 1750 0    50   ~ 0
-PB7
-Text Label 4800 5500 0    50   ~ 0
-PF0
 Wire Wire Line
 	4800 5500 4700 5500
-Text Label 5350 1650 0    50   ~ 0
-PF0
-Wire Wire Line
-	5350 1650 5600 1650
-$Comp
-L power:+3V3 #PWR0121
-U 1 1 5B778D49
-P 5900 1400
-F 0 "#PWR0121" H 5900 1250 50  0001 C CNN
-F 1 "+3V3" H 6050 1500 50  0000 C CNN
-F 2 "" H 5900 1400 50  0001 C CNN
-F 3 "" H 5900 1400 50  0001 C CNN
-	1    5900 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 1400 6300 1400
 Text Label 6700 3400 0    50   ~ 0
 SCK
 Text Label 6700 4050 0    50   ~ 0
@@ -746,32 +644,6 @@ Connection ~ 7000 4050
 Wire Wire Line
 	7000 4700 7000 4900
 Connection ~ 7000 4700
-$Comp
-L Device:R R5
-U 1 1 5B79D7F6
-P 6150 1950
-F 0 "R5" V 6150 1950 50  0000 C CNN
-F 1 "100" V 6250 1950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6080 1950 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 6150 1950 50  0001 C CNN
-F 4 "100 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
-F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3EKF1000V" H 0   0   50  0001 C CNN "Mfg Part #"
-F 7 "0603" H 0   0   50  0001 C CNN "Package"
-	1    6150 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0123
-U 1 1 5B79F41D
-P 5900 2350
-F 0 "#PWR0123" H 5900 2100 50  0001 C CNN
-F 1 "GND" H 5900 2200 50  0000 C CNN
-F 2 "" H 5900 2350 50  0001 C CNN
-F 3 "" H 5900 2350 50  0001 C CNN
-	1    5900 2350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8150 1800 8900 1800
 Wire Wire Line
@@ -1223,30 +1095,10 @@ Wire Wire Line
 	9500 2500 9500 2400
 Wire Wire Line
 	9800 2500 9950 2500
-Connection ~ 2600 3900
 Wire Wire Line
 	4700 4900 4800 4900
 $Comp
-L Device:R R14
-U 1 1 5B76E7EE
-P 5750 1850
-F 0 "R14" V 5750 1850 50  0000 C CNN
-F 1 "10k" V 5850 1850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5680 1850 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 5750 1850 50  0001 C CNN
-F 4 "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
-F 5 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3GEYJ103V" H 0   0   50  0001 C CNN "Mfg Part #"
-F 7 "0603" H 0   0   50  0001 C CNN "Package"
-	1    5750 1850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5600 1850 5600 1650
-Wire Wire Line
-	5900 1950 6000 1950
-$Comp
-L Honeywell_Sensor_Pressure:40PC015G U3
+L WARBL2.2-rescue:40PC015G-Honeywell_Sensor_Pressure U3
 U 1 1 5B7EE8AC
 P 6150 5650
 F 0 "U3" H 5950 5100 50  0000 R CNN
@@ -1264,45 +1116,11 @@ Wire Wire Line
 	4000 6400 4100 6400
 Connection ~ 4000 6400
 Text Label 3350 4100 0    50   ~ 0
-D+
-Text Label 3350 4200 0    50   ~ 0
-D-
-Text Label 2800 4100 0    50   ~ 0
 R+
-Text Label 2800 4200 0    50   ~ 0
+Text Label 3350 4200 0    50   ~ 0
 R-
-$Comp
-L 4_con_switch_3.5mm_jack:AudioJack4_Ground J3
-U 1 1 5B7DD30F
-P 6500 1750
-F 0 "J3" H 6192 1559 50  0000 R CNN
-F 1 "4-conductor jack with ring 1 switch for end sensor" H 7850 1150 50  0000 R CNN
-F 2 "localLib6:CUI_SJ2-35954C-SMT-TR" H 6500 1750 50  0001 C CNN
-F 3 "http://static6.arrow.com/aropdfconversion/8b4844304c98228e346d537f460db3e3bc2d9ad0/sj2-3595x-smt.pdf" H 6500 1750 50  0001 C CNN
-F 4 "CUI, Inc." H 6500 1750 50  0001 C CNN "Manufacturer"
-F 5 "SJ2-35954C-SMT-TR" H 6500 1750 50  0001 C CNN "Mfg Part #"
-F 6 "http://static6.arrow.com/aropdfconversion/8b4844304c98228e346d537f460db3e3bc2d9ad0/sj2-3595x-smt.pdf" H 6500 1750 50  0001 C CNN "Description"
-F 7 "Do not include in assembly." H 6500 1750 50  0001 C CNN "Instructions"
-	1    6500 1750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6300 1850 6300 1950
-Wire Wire Line
-	5900 1850 5900 1950
-Wire Wire Line
-	6300 1750 6000 1750
-Wire Wire Line
-	6300 1650 5600 1650
-Connection ~ 5600 1650
-Text Label 4800 3100 0    50   ~ 0
-PB0
 Wire Wire Line
 	4800 3100 4700 3100
-Text Label 6000 1500 0    50   ~ 0
-PB0
-Wire Wire Line
-	6300 1500 6000 1500
 Text Notes 8850 1250 0    50   ~ 0
 Tone hole sensors
 Text Notes 1850 1050 0    50   ~ 0
@@ -1373,7 +1191,7 @@ Connection ~ 8150 1800
 Wire Wire Line
 	7700 1800 7700 1950
 $Comp
-L ECMF02-2AMX6:ECMF02-2AMX6 IC1
+L WARBL2.2-rescue:ECMF02-2AMX6-ECMF02-2AMX6 IC1
 U 1 1 5C17F8C2
 P 2700 4100
 F 0 "IC1" H 3200 3550 50  0000 C CNN
@@ -1388,7 +1206,7 @@ F 7 "6-UFQFN" H 2700 4100 50  0001 C CNN "Package"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dk_Optical-Sensors-Reflective-Analog-Output:QRD1114 U4
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U4
 U 1 1 5C18796A
 P 9200 1700
 F 0 "U4" H 9200 2047 60  0000 C CNN
@@ -1410,7 +1228,7 @@ F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
 $EndComp
 Connection ~ 9500 1800
 $Comp
-L dk_Optical-Sensors-Reflective-Analog-Output:QRD1114 U5
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U5
 U 1 1 5C196956
 P 9200 2300
 F 0 "U5" H 9200 2647 60  0000 C CNN
@@ -1432,7 +1250,7 @@ F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
 $EndComp
 Connection ~ 9500 2400
 $Comp
-L dk_Optical-Sensors-Reflective-Analog-Output:QRD1114 U6
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U6
 U 1 1 5C196DB4
 P 9200 2900
 F 0 "U6" H 9200 3247 60  0000 C CNN
@@ -1454,7 +1272,7 @@ F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
 $EndComp
 Connection ~ 9500 3000
 $Comp
-L dk_Optical-Sensors-Reflective-Analog-Output:QRD1114 U7
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U7
 U 1 1 5C196E30
 P 9200 3500
 F 0 "U7" H 9200 3847 60  0000 C CNN
@@ -1476,7 +1294,7 @@ F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
 $EndComp
 Connection ~ 9500 3600
 $Comp
-L dk_Optical-Sensors-Reflective-Analog-Output:QRD1114 U8
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U8
 U 1 1 5C196F70
 P 9200 4100
 F 0 "U8" H 9200 4447 60  0000 C CNN
@@ -1498,7 +1316,7 @@ F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
 $EndComp
 Connection ~ 9500 4200
 $Comp
-L dk_Optical-Sensors-Reflective-Analog-Output:QRD1114 U9
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U9
 U 1 1 5C196FF2
 P 9200 4700
 F 0 "U9" H 9200 5047 60  0000 C CNN
@@ -1520,7 +1338,7 @@ F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
 $EndComp
 Connection ~ 9500 4800
 $Comp
-L dk_Optical-Sensors-Reflective-Analog-Output:QRD1114 U10
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U10
 U 1 1 5C1970CC
 P 9200 5300
 F 0 "U10" H 9200 5647 60  0000 C CNN
@@ -1542,7 +1360,7 @@ F 13 "Do not include in assembly." H 0   0   50  0001 C CNN "Instructions"
 $EndComp
 Connection ~ 9500 5400
 $Comp
-L dk_Optical-Sensors-Reflective-Analog-Output:QRD1114 U11
+L WARBL2.2-rescue:QRD1114-dk_Optical-Sensors-Reflective-Analog-Output U11
 U 1 1 5C197152
 P 9200 5900
 F 0 "U11" H 9200 6247 60  0000 C CNN
@@ -1578,8 +1396,6 @@ F 7 "0603" H 1950 3750 50  0001 C CNN "Package"
 	1    1950 3750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	1600 3900 1950 3900
 $Comp
 L power:GND #PWR02
 U 1 1 5C1AEE0F
@@ -1593,9 +1409,6 @@ F 3 "" H 2350 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1950 3600 2350 3600
-Connection ~ 1950 3900
-Wire Wire Line
-	1950 3900 2600 3900
 Connection ~ 3500 3100
 Wire Wire Line
 	3150 3100 3500 3100
@@ -1603,12 +1416,6 @@ NoConn ~ 1700 4300
 Wire Wire Line
 	2700 4300 2700 4400
 Connection ~ 2700 4400
-Wire Wire Line
-	5900 2350 5900 2250
-Connection ~ 5900 1950
-Wire Wire Line
-	1200 4500 1300 4500
-Connection ~ 1300 4500
 $Comp
 L Device:C_Small C8
 U 1 1 5C2BE390
@@ -1637,10 +1444,6 @@ Wire Wire Line
 	1600 4100 1700 4100
 Wire Wire Line
 	1600 4200 1700 4200
-Wire Wire Line
-	2700 4100 3000 4100
-Wire Wire Line
-	2700 4200 3000 4200
 $Comp
 L Mechanical:MountingHole_Pad MH1
 U 1 1 5C3138EE
@@ -1747,25 +1550,6 @@ Connection ~ 5050 2400
 Wire Wire Line
 	5050 2400 5350 2400
 $Comp
-L Diode:1.5KExxA D3
-U 1 1 5C4C1A8D
-P 6400 2100
-F 0 "D3" V 6650 2150 50  0000 R CNN
-F 1 "ESDA7P60-1U1M" V 6400 2850 50  0000 R CNN
-F 2 "localLib7:ESDA7P601U1M" H 6400 1900 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/88301/15ke.pdf" H 6350 2100 50  0001 C CNN
-	1    6400 2100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6400 1950 6300 1950
-Connection ~ 6300 1950
-Wire Wire Line
-	6400 2250 5900 2250
-Connection ~ 5900 2250
-Wire Wire Line
-	5900 2250 5900 1950
-$Comp
 L Switch:SW_Push_Dual SW5
 U 1 1 5C8F0E2F
 P 7200 2750
@@ -1794,4 +1578,169 @@ Wire Wire Line
 	7650 2750 7650 3400
 Text Notes 6750 2600 0    50   ~ 0
 Alternate location for SW2
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 5F65D3C0
+P 2300 5650
+F 0 "J1" H 2407 6517 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 2407 6426 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 2450 5650 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2450 5650 50  0001 C CNN
+	1    2300 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 5F68E7C5
+P 3050 5050
+F 0 "#PWR07" H 3050 4900 50  0001 C CNN
+F 1 "+5V" H 3065 5223 50  0000 C CNN
+F 2 "" H 3050 5050 50  0001 C CNN
+F 3 "" H 3050 5050 50  0001 C CNN
+	1    3050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5050 3050 5050
+Wire Wire Line
+	2900 5550 2900 5650
+Wire Wire Line
+	2900 5750 2900 5850
+Wire Wire Line
+	2900 5250 3000 5250
+Wire Wire Line
+	2900 5350 3000 5350
+$Comp
+L power:GND #PWR08
+U 1 1 5F735742
+P 3450 5350
+F 0 "#PWR08" H 3450 5100 50  0001 C CNN
+F 1 "GND" H 3455 5177 50  0000 C CNN
+F 2 "" H 3450 5350 50  0001 C CNN
+F 3 "" H 3450 5350 50  0001 C CNN
+	1    3450 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 5350 3450 5350
+Wire Wire Line
+	3300 5250 3450 5250
+Wire Wire Line
+	3450 5250 3450 5350
+Connection ~ 3450 5350
+Text Label 2900 5800 0    50   ~ 0
+D+
+Text Label 1600 4100 0    50   ~ 0
+D+
+Text Label 1600 4200 0    50   ~ 0
+D-
+Text Label 2900 5600 0    50   ~ 0
+D-
+NoConn ~ 2900 6150
+NoConn ~ 2900 6250
+$Comp
+L power:GND #PWR06
+U 1 1 5F7B4406
+P 2300 6550
+F 0 "#PWR06" H 2300 6300 50  0001 C CNN
+F 1 "GND" H 2305 6377 50  0000 C CNN
+F 2 "" H 2300 6550 50  0001 C CNN
+F 3 "" H 2300 6550 50  0001 C CNN
+	1    2300 6550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2000 6550
+Wire Wire Line
+	1950 3900 3500 3900
+$Comp
+L power:+5V #PWR05
+U 1 1 5F7C7011
+P 1600 3900
+F 0 "#PWR05" H 1600 3750 50  0001 C CNN
+F 1 "+5V" H 1615 4073 50  0000 C CNN
+F 2 "" H 1600 3900 50  0001 C CNN
+F 3 "" H 1600 3900 50  0001 C CNN
+	1    1600 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3900 1950 3900
+Connection ~ 1950 3900
+$Comp
+L Device:R R17
+U 1 1 5F7FF4E3
+P 3150 5250
+F 0 "R17" V 3150 5250 50  0000 C CNN
+F 1 "5.1k" V 3050 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 5250 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3150 5250 50  0001 C CNN
+F 4 "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H -100 2650 50  0001 C CNN "Description"
+F 5 "Panasonic" H -100 2650 50  0001 C CNN "Manufacturer"
+F 6 "ERJ-3GEYJ103V" H -100 2650 50  0001 C CNN "Mfg Part #"
+F 7 "0603" H -100 2650 50  0001 C CNN "Package"
+	1    3150 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5F80828E
+P 3150 5350
+F 0 "R18" V 3150 5350 50  0000 C CNN
+F 1 "5.1k" V 3250 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 5350 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3150 5350 50  0001 C CNN
+F 4 "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H -100 2750 50  0001 C CNN "Description"
+F 5 "Panasonic" H -100 2750 50  0001 C CNN "Manufacturer"
+F 6 "ERJ-3GEYJ103V" H -100 2750 50  0001 C CNN "Mfg Part #"
+F 7 "0603" H -100 2750 50  0001 C CNN "Package"
+	1    3150 5350
+	0    1    1    0   
+$EndComp
+NoConn ~ 4800 3100
+NoConn ~ 4800 3800
+NoConn ~ 4800 5500
+Wire Wire Line
+	2700 4200 3000 4200
+Wire Wire Line
+	3300 4200 3500 4200
+Wire Wire Line
+	2700 4100 3000 4100
+Wire Wire Line
+	3300 4100 3500 4100
+$Comp
+L Device:R R3
+U 1 1 5B747BCD
+P 3150 4200
+F 0 "R3" V 3150 4200 50  0000 C CNN
+F 1 "22" V 3250 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 4200 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3150 4200 50  0001 C CNN
+F 4 "22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
+F 5 "22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Digi-Key_PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERJ-3EKF22R0V" H 0   0   50  0001 C CNN "Mfg Part #"
+F 8 "0603" H 0   0   50  0001 C CNN "Package"
+	1    3150 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5B7479A0
+P 3150 4100
+F 0 "R2" V 3150 4100 50  0000 C CNN
+F 1 "22" V 3034 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 4100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 3150 4100 50  0001 C CNN
+F 4 "22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Description"
+F 5 "22 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H 0   0   50  0001 C CNN "Digi-Key_PN"
+F 6 "Panasonic" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "ERJ-3EKF22R0V" H 0   0   50  0001 C CNN "Mfg Part #"
+F 8 "0603" H 0   0   50  0001 C CNN "Package"
+	1    3150 4100
+	0    1    1    0   
+$EndComp
+Text Label 2750 4100 0    50   ~ 0
+RR+
+Text Label 2750 4200 0    50   ~ 0
+RR-
 $EndSCHEMATC
