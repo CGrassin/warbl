@@ -1480,9 +1480,6 @@ F 7 "0603" H -100 2750 50  0001 C CNN "Package"
 	1    3150 5350
 	0    1    1    0   
 $EndComp
-NoConn ~ 4800 3100
-NoConn ~ 4800 3800
-NoConn ~ 4800 5500
 Wire Wire Line
 	2700 4200 3000 4200
 Wire Wire Line
@@ -1825,4 +1822,10 @@ F 3 "~" H 7200 4900 50  0001 C CNN
 $EndComp
 Connection ~ 7000 4700
 Connection ~ 7400 4700
+Text Label 4800 3100 0    50   ~ 0
+PB0
+Text Label 4800 3800 0    50   ~ 0
+PB7
+Text Label 4800 5500 0    50   ~ 0
+PF0
 $EndSCHEMATC
