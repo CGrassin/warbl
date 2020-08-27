@@ -2,7 +2,7 @@
 
 Fork of the WARBL MIDI wind controller by Andrew Mowry (https://warbl.xyz/)
 
-# Fabrication notes
+## Fabrication notes
 You will have to cut the pins of the jack connector so they do not short with the USB-C supports.
 
 ## License
