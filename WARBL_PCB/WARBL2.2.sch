@@ -1390,10 +1390,6 @@ Wire Wire Line
 	2900 5550 2900 5650
 Wire Wire Line
 	2900 5750 2900 5850
-Wire Wire Line
-	2900 5250 3000 5250
-Wire Wire Line
-	2900 5350 3000 5350
 $Comp
 L power:GND #PWR08
 U 1 1 5F735742
@@ -1463,21 +1459,6 @@ F 5 "Panasonic" H -100 2650 50  0001 C CNN "Manufacturer"
 F 6 "ERJ-3GEYJ103V" H -100 2650 50  0001 C CNN "Mfg Part #"
 F 7 "0603" H -100 2650 50  0001 C CNN "Package"
 	1    3150 5250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R18
-U 1 1 5F80828E
-P 3150 5350
-F 0 "R18" V 3150 5350 50  0000 C CNN
-F 1 "5.1k" V 3250 5350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 5350 50  0001 C CNN
-F 3 "~" H 3150 5350 50  0001 C CNN
-F 4 "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H -100 2750 50  0001 C CNN "Description"
-F 5 "Panasonic" H -100 2750 50  0001 C CNN "Manufacturer"
-F 6 "ERJ-3GEYJ103V" H -100 2750 50  0001 C CNN "Mfg Part #"
-F 7 "0603" H -100 2750 50  0001 C CNN "Package"
-	1    3150 5350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1828,4 +1809,23 @@ Text Label 4800 3800 0    50   ~ 0
 PB7
 Text Label 4800 5500 0    50   ~ 0
 PF0
+$Comp
+L Device:R R18
+U 1 1 5F80828E
+P 3150 5350
+F 0 "R18" V 3150 5350 50  0000 C CNN
+F 1 "5.1k" V 3250 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 5350 50  0001 C CNN
+F 3 "~" H 3150 5350 50  0001 C CNN
+F 4 "10 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" H -100 2750 50  0001 C CNN "Description"
+F 5 "Panasonic" H -100 2750 50  0001 C CNN "Manufacturer"
+F 6 "ERJ-3GEYJ103V" H -100 2750 50  0001 C CNN "Mfg Part #"
+F 7 "0603" H -100 2750 50  0001 C CNN "Package"
+	1    3150 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 5250 3000 5250
+Wire Wire Line
+	2900 5350 3000 5350
 $EndSCHEMATC
